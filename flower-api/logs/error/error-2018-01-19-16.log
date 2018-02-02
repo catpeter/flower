@@ -1,0 +1,132 @@
+[2018-01-19 16:23:03.954] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 29
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:14:36
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+
+[2018-01-19 16:24:44.890] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 29
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:14:36
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+
+[2018-01-19 16:27:53.185] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 11
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:14:34
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+
+[2018-01-19 16:28:14.718] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 13
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:14:34
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+
+[2018-01-19 16:29:29.335] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 12
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:15:34
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+
+[2018-01-19 16:30:49.146] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/plant/succulents?pageIndex=1&pageSize=5&name=&grown=&breed=&genus=
+request client ip:  ::1
+request query:  {"pageIndex":"1","pageSize":"5","name":"","grown":"","breed":"","genus":""}
+response time: 13
+err name: MongoError
+err message: limit requires an integer
+err stack: MongoError: limit requires an integer
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at Cursor.limit (D:\flower\flower-api\node_modules\mongodb\lib\cursor.js:613:49)
+    at Promise (D:/flower/flower-api/src/utils/mongodb.js:319:8)
+    at DB.pagefind (D:/flower/flower-api/src/utils/mongodb.js:315:10)
+    at D:/flower/flower-api/src/handlers/SucculentHandler.js:15:34
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\handlers\SucculentHandler.js:21:191)
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:437
+    at D:\flower\flower-api\src\handlers\SucculentHandler.js:21:99
+    at SucculentHandler.pagefind (D:/flower/flower-api/src/handlers/SucculentHandler.js:13:79)
+*************** error log end ***************
+

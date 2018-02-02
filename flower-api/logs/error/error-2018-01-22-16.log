@@ -1,0 +1,251 @@
+[2018-01-22 16:07:06.864] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 14
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at D:/flower/flower-api/src/routes/plant/succulent.js:19:53
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\routes\plant\succulent.js:9:191)
+    at D:\flower\flower-api\src\routes\plant\succulent.js:9:437
+    at D:\flower\flower-api\src\routes\plant\succulent.js:9:99
+    at router.del (D:/flower/flower-api/src/routes/plant/succulent.js:18:1)
+    at dispatch (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\flower\flower-api\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-01-22 16:07:48.992] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 0
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at D:/flower/flower-api/src/routes/plant/succulent.js:19:53
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\routes\plant\succulent.js:9:191)
+    at D:\flower\flower-api\src\routes\plant\succulent.js:9:437
+    at D:\flower\flower-api\src\routes\plant\succulent.js:9:99
+    at router.del (D:/flower/flower-api/src/routes/plant/succulent.js:18:1)
+    at dispatch (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\flower\flower-api\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\flower\flower-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-01-22 16:08:16.088] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 86
+err name: TypeError
+err message: Cannot read property 'succulentImg' of null
+err stack: TypeError: Cannot read property 'succulentImg' of null
+    at D:/flower/flower-api/src/controllers/plant/succulentController.js:41:9
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\plant\succulentController.js:25:191)
+    at D:\flower\flower-api\src\controllers\plant\succulentController.js:25:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-22 16:08:59.045] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 13
+err name: TypeError
+err message: Cannot read property 'succulentImg' of null
+err stack: TypeError: Cannot read property 'succulentImg' of null
+    at D:/flower/flower-api/src/controllers/plant/succulentController.js:41:9
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\plant\succulentController.js:25:191)
+    at D:\flower\flower-api\src\controllers\plant\succulentController.js:25:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-22 16:14:17.814] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 117
+err name: MongoError
+err message: Wrong type for 'q'. Expected a object, got a objectId.
+err stack: MongoError: Wrong type for 'q'. Expected a object, got a objectId.
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:497:72
+    at authenticateStragglers (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:443:16)
+    at Connection.messageHandler (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:477:5)
+    at Socket.<anonymous> (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\connection.js:333:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+*************** error log end ***************
+
+[2018-01-22 16:14:56.328] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 17
+err name: MongoError
+err message: Wrong type for 'q'. Expected a object, got a objectId.
+err stack: MongoError: Wrong type for 'q'. Expected a object, got a objectId.
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:497:72
+    at authenticateStragglers (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:443:16)
+    at Connection.messageHandler (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:477:5)
+    at Socket.<anonymous> (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\connection.js:333:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+*************** error log end ***************
+
+[2018-01-22 16:14:59.632] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 8
+err name: MongoError
+err message: Wrong type for 'q'. Expected a object, got a objectId.
+err stack: MongoError: Wrong type for 'q'. Expected a object, got a objectId.
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:497:72
+    at authenticateStragglers (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:443:16)
+    at Connection.messageHandler (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:477:5)
+    at Socket.<anonymous> (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\connection.js:333:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+*************** error log end ***************
+
+[2018-01-22 16:15:27.595] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 18
+err name: MongoError
+err message: Wrong type for 'q'. Expected a object, got a string.
+err stack: MongoError: Wrong type for 'q'. Expected a object, got a string.
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:497:72
+    at authenticateStragglers (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:443:16)
+    at Connection.messageHandler (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:477:5)
+    at Socket.<anonymous> (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\connection.js:333:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+*************** error log end ***************
+
+[2018-01-22 16:17:01.469] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 17
+err name: MongoError
+err message: Wrong type for 'q'. Expected a object, got a objectId.
+err stack: MongoError: Wrong type for 'q'. Expected a object, got a objectId.
+    at Function.MongoError.create (D:\flower\flower-api\node_modules\mongodb-core\lib\error.js:31:11)
+    at D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:497:72
+    at authenticateStragglers (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:443:16)
+    at Connection.messageHandler (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\pool.js:477:5)
+    at Socket.<anonymous> (D:\flower\flower-api\node_modules\mongodb-core\lib\connection\connection.js:333:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+*************** error log end ***************
+
+[2018-01-22 16:20:50.799] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 4
+err name: TypeError
+err message: Cannot read property 'succulentImg' of null
+err stack: TypeError: Cannot read property 'succulentImg' of null
+    at D:/flower/flower-api/src/controllers/plant/succulentController.js:40:9
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\plant\succulentController.js:27:191)
+    at D:\flower\flower-api\src\controllers\plant\succulentController.js:27:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-22 16:22:12.724] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a6578ff376b6edf1a63dbaa
+request client ip:  ::1
+request body: 
+undefined
+response time: 9
+err name: TypeError
+err message: Cannot read property 'succulentImg' of null
+err stack: TypeError: Cannot read property 'succulentImg' of null
+    at D:/flower/flower-api/src/controllers/plant/succulentController.js:41:9
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\plant\succulentController.js:27:191)
+    at D:\flower\flower-api\src\controllers\plant\succulentController.js:27:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-22 16:25:29.163] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: DELETE
+request originalUrl:  /api/plant/succulents/5a659d38376b6edf1a63f69e
+request client ip:  ::1
+request body: 
+undefined
+response time: 13
+err name: TypeError
+err message: Cannot read property 'plantImg' of null
+err stack: TypeError: Cannot read property 'plantImg' of null
+    at D:/flower/flower-api/src/controllers/plant/succulentController.js:42:9
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\plant\succulentController.js:27:191)
+    at D:\flower\flower-api\src\controllers\plant\succulentController.js:27:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+

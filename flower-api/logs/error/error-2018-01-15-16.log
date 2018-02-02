@@ -1,0 +1,113 @@
+[2018-01-15 16:03:24.438] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 21
+err name: TypeError
+err message: Cannot read property 'results' of null
+err stack: TypeError: Cannot read property 'results' of null
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:9:22
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-15 16:04:22.482] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 22
+err name: Error
+err message: 该用户不存在!
+err stack: Error: 该用户不存在!
+    at validatorLogin (D:/flower/flower-api/src/controllers/sys/userInfoController.js:28:11)
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:12:12
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-15 16:05:24.559] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 21
+err name: Error
+err message: 该用户不存在!
+err stack: Error: 该用户不存在!
+    at validatorLogin (D:/flower/flower-api/src/controllers/sys/userInfoController.js:28:11)
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:12:12
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-15 16:06:33.949] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 27
+err name: Error
+err message: 该用户不存在!
+err stack: Error: 该用户不存在!
+    at validatorLogin (D:/flower/flower-api/src/controllers/sys/userInfoController.js:30:11)
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:14:12
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-15 16:09:16.758] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 21
+err name: Error
+err message: 该用户不存在!
+err stack: Error: 该用户不存在!
+    at validatorLogin (D:/flower/flower-api/src/controllers/sys/userInfoController.js:30:11)
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:14:12
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+
+[2018-01-15 16:09:25.995] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/sys/userInfo/login
+request client ip:  ::1
+request body: 
+{"password":"admin","userName":"admin"}
+response time: 6
+err name: Error
+err message: 该用户不存在!
+err stack: Error: 该用户不存在!
+    at validatorLogin (D:/flower/flower-api/src/controllers/sys/userInfoController.js:30:11)
+    at D:/flower/flower-api/src/controllers/sys/userInfoController.js:14:12
+    at Generator.next (<anonymous>)
+    at step (D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:191)
+    at D:\flower\flower-api\src\controllers\sys\userInfoController.js:17:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+*************** error log end ***************
+

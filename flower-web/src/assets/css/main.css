@@ -1,0 +1,646 @@
+#app {
+  height: 100%;
+  background-color: #f0f3f6;
+  overflow: hidden;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  background-color: #f0f3f6;
+  overflow: hidden;
+}
+
+
+/*登录页面========start======*/
+
+.checklog {
+  width: 60%;
+  float: left;
+}
+
+.right {
+  width: 35%;
+  padding-top: 10px;
+  line-height: 15px;
+  float: right;
+}
+
+.login-bg {
+  background: url('./../img/login/login-bg.png');
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.login-logo {
+  margin-top: 8%;
+  text-align: center;
+  width: 100px;
+}
+
+.login {
+  margin: 3% auto 0;
+  width: 400px;
+}
+
+.login .el-checkbox {
+  float: left;
+}
+
+.login .el-checkbox__label {
+  color: #fff;
+}
+
+.login .el-input-group__prepend {
+  width: 80px;
+}
+
+.copyright {
+  color: #e5e5e5;
+  font-size: 12px;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+  bottom: 5%;
+}
+
+
+/*登录enterSystem页面========start======*/
+
+
+.login-default {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -225px;
+  margin-left: -400px;
+}
+
+.login-default div {
+  display: inline-block;
+  width: 400px;
+  height: 450px;
+  background: url('./../img/login/login-default.png') no-repeat;
+}
+
+
+/*@keyframes divhover
+{
+  from { background:url('./../img/login/login-default.png') no-repeat; }
+  to { background: url('./../img/login/login-select.png') no-repeat; }
+}*/
+
+.login-default div:hover {
+  /* animation:divhover 1.8s forwards; */
+  background: url('./../img/login/login-select.png') no-repeat;
+  cursor: pointer;
+}
+
+.login-default div:hover span {
+  cursor: pointer;
+}
+
+.login-default div span {
+  position: relative;
+  top: 200px;
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 2px 2px 20px #0058c5;
+}
+
+
+/*topBar页面========start======*/
+
+.top-bar {
+  width: 100%;
+  height: 75px;
+  background-color: #005bd5;
+}
+
+.top-bar-logo {
+  text-align: left;
+  vertical-align: middle;
+  line-height: 75px;
+}
+
+.top-bar-logo img {
+  margin: 0 24px;
+  vertical-align: middle;
+}
+
+.top-bar-logo .logo {
+  margin-top: -5px;
+}
+
+.top-bar-title {
+  color: #fff;
+}
+
+
+/*sideBar样式*/
+
+.side-bar {
+  width: 256px;
+  height: 100%;
+  box-shadow: 5px 5px 5px #d1d4d6;
+  background-color: #fff;
+  /*position: fixed;*/
+}
+
+.el-col>.el-menu>.el-menu-item {
+  height: 62px;
+  margin-top: -1px;
+  line-height: 62px;
+  font-size: 14px;
+  color: #333;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-right: 0px;
+}
+
+.el-col>.el-menu>.el-menu-item>img,
+.el-submenu .el-submenu__title>img {
+  position: absolute;
+  top: 50%;
+  left: 26px;
+  margin-top: -11px;
+}
+
+.el-menu {
+  background-color: #fff;
+}
+
+.el-menu li.el-submenu {
+  list-style: none;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  border-right: 0px;
+}
+
+.el-submenu .el-menu {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.el-submenu .el-submenu__title {
+  height: 62px;
+  line-height: 62px;
+  font-size: 14px;
+  color: #333;
+}
+
+.el-submenu [class^=el-icon-] {
+  position: absolute;
+  top: 50%;
+  left: 26px;
+  margin-top: -7px;
+}
+
+.el-submenu__title {
+  padding-left: 80px!important;
+  text-align: left;
+}
+
+.el-submenu .el-menu-item {
+  color: #999;
+}
+
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active,
+.el-menu-item.is-active {
+  color: #20a0ff;
+  background-color: #f0f3f6;
+}
+
+
+/*index.bar页面========start======*/
+
+.module-div {
+  height: 100%;
+}
+
+.top-set {
+  float: right;
+}
+
+.top-set img:first-child {
+  margin: 22px 10px;
+}
+
+.top-set img:last-child {
+  margin: 22px 34px 24px 10px;
+}
+
+.top-set img {
+  cursor: pointer;
+}
+
+.dialog-input-wid {
+  width: 60%;
+}
+
+
+/*sysIndex.bar页面========start======*/
+
+.content {
+  padding: 10px 10px 10px 15px;
+  margin-left: 256px;
+  overflow-y: auto;
+  height: 90%;
+  overflow-x: hidden;
+}
+
+
+/*main页面========start======*/
+
+.main-content {
+  box-shadow: 5px 5px 5px #f0f3f6;
+  background-color: #fff;
+  height: 100%;
+}
+
+.main-content-top {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  height: 64px;
+  line-height: 60px;
+}
+
+.el-breadcrumb__separator {
+  height: 20px;
+  margin: 0;
+  font-weight: 700;
+  color: #16b4ff;
+}
+.el-breadcrumb {
+  /*height:100%;*/
+}
+.el-breadcrumb__item__inner,
+.el-breadcrumb__item__inner a {
+  color: #333;
+}
+
+
+/*.main-content>.el-breadcrumb__item:last-child>.el-breadcrumb__separator{
+  display:none;
+}*/
+
+.key-search-form {
+  /*padding:10px 10px;*/
+  text-align: right;
+  float: right;
+}
+
+.key-search-form .el-form--inline .el-form-item__content {
+  vertical-align: middle;
+  line-height: 4px;
+}
+
+.key-search-form .el-form--inline {
+  padding-right: 24px;
+}
+
+.key-search-form .el-form-item {
+  margin-bottom: 0px;
+}
+
+.key-search-form .el-input__inner {
+  height: 30px;
+}
+
+.main-content-table {
+  padding: 15px;
+}
+
+.el-table {
+  border: 1px solid #16b4ff;
+}
+
+.el-table td,
+.el-table th {
+  height: 46px;
+  line-height: 46px;
+}
+
+.el-table th {
+  background-color: #f7faff;
+}
+
+.el-table th>.cell {
+  text-align: center;
+  color: #333;
+  background-color: #f7faff;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #f8f8f8;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color: #e5ebf7;
+}
+
+.table-btn {
+  color: #16b4ff;
+  cursor: pointer;
+}
+
+.el-pagination {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.main-content-title {
+  border-bottom: none;
+  font-size: 20px;
+  font-weight: bold;
+  background: #f2f2f2;
+}
+
+.lineProduction-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.lineProduction-table tr:nth-child(odd) {
+  background: #f3f3f3;
+}
+
+.lineProduction-table tr th {
+  padding: 10px 10px;
+  font-weight: 500;
+  width: "50%";
+  border: 2px solid black;
+}
+
+.lineProduction-table tr td {
+  padding: 10px 10px;
+  font-weight: 500;
+  width: "50%";
+  border: 2px solid black;
+}
+
+.lineProduction-title {
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+  text-shadow: #074385;
+  font-weight: 800;
+  font-family: PingFangSC-Semibold, sans-serif;
+}
+
+.lineProduction-boardTable {
+  font-size: 50px;
+  color: white;
+  background-color: #2badfe;
+  font-weight: 800;
+  font-family: PingFangSC-Semibold, sans-serif;
+}
+
+.native-table {
+  table-layout: fixed;
+  font-size: 25px;
+  border: 2px solid #16b4ff;
+  border-collapse: collapse;
+}
+
+.native-table tr th {
+  border-bottom: 1px solid #dfe6ec;
+  border-right: 1px solid #dfe6ec;
+  width: "50%";
+}
+
+.native-table tr td {
+  border-bottom: 1px solid #dfe6ec;
+  width: "50%";
+}
+/*
+.el-message-box__btns .el-button--primary {
+  width: 98px;
+  height: 40px;
+  border-radius: 2px;
+}*/
+
+/*::-webkit-scrollbar {
+  display: none;
+}*/
+
+.fullStaffBoardtable table
+  {
+  border-collapse:collapse;
+  }
+  
+.fullStaffBoardtable table, .fullStaffBoardtable td, .fullStaffBoardtable th
+  {
+  border:1px solid #c8c4c5;
+  }
+
+/* el-dialog */
+.el-dialog .el-form-item {
+  margin-bottom: 12px;
+}
+
+
+.el-dialog .el-form-item__content {
+  line-height: normal;
+}
+
+.el-dialog {
+  border: 1px solid #16b4ff;
+  border-radius: 4px;
+}
+
+.el-dialog .el-dialog__close {
+  font-size: 16px;
+  color: #555;
+}
+
+.el-dialog__header {
+  height: 58px;
+  padding: 0;
+  line-height: 58px;
+  font-size: 16px;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f7faff;
+}
+
+.el-dialog__title {
+  float: left;
+  margin-left: 22px;
+  line-height: 58px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+.el-dialog__headerbtn {
+  margin-right: 22px;
+  line-height: 58px;
+}
+.el-dialog__body {
+  padding:20px;
+}
+
+.el-dialog__body .el-form-item__label {
+  width: 100px;
+  font-size: 14px;
+  color: #333;
+}
+
+.el-dialog__body .el-input__inner {
+  height: 40px;
+}
+
+.el-dialog__body .el-textarea {
+  /*height: 120px;*/
+  width: 220px;
+}
+.el-input-number {
+  width:100%;
+}
+.el-dialog__footer {
+  padding: 8px 44px 30px;
+}
+
+.el-dialog__footer .el-button--primary,
+.el-message-box__btns .el-button--primary {
+  width: 98px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.el-message-box__message {
+  font-size: 16px;
+  color: #333;
+}
+
+.del-dialog .el-dialog__body {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+.el-dialog--tiny .el-dialog__body {
+  padding: 20px;
+}
+
+.workerLevel p {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.determine-col .el-form-item__content .el-input {
+  width:100px;
+}
+
+.el-table-person div.cell {
+  padding: 0
+}
+.el-form--inline .el-form-item {
+  margin-right: 0px;
+  margin-left: 7px;
+  /*float: left;*/
+}
+
+.main-content-top .el-form--inline .el-form-item {
+  float: left;
+}
+
+.confirmPerson tr.current-row>td {
+    background-color: #d6eaf9
+}
+
+.uploadImg {
+  height:130px;
+  width:220px;
+  border:1px solid #8391a5;
+}
+
+.process-input .el-input__inner {
+  width:80px;
+}
+
+.main-content::after {
+  clear: both
+}
+
+.main-content-table::after {
+  clear: both
+}
+
+.hour-form .el-form-item__label {
+  text-align: right;
+}
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #8B8B8B;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #20a0ff;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+
+
+  .prison-div {
+    width:150px; 
+    height:150px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    float:left;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  .prison-div img {
+    width:150px;
+    height:150px;
+  }
+  .prison-div img.prison-bg {
+    position: relative;
+    top:-165px;
+    left:0;
+    z-index:1000;
+    opacity:0;
+  }
+  @keyframes prison-animation
+  {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .prison-div img.prison-bg:hover {
+    animation: prison-animation 1s;
+    animation-fill-mode: forwards;
+  }
+.poptitle {
+  text-align:center;
+}
+.poptitle li {
+  position:relative;
+  display:inline-block;
+  padding:0 50px;
+  list-style: none outside none;
+}
+.poptitle li:last-child{background:linear-gradient(to bottom,white,white) no-repeat left / 2px 80px;}
