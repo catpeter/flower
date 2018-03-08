@@ -49,15 +49,15 @@ class SucculentController {
   }
 
   async searchSucculentList (query) {
-    var condition = {}
+    let condition = {}
     if (query.grown) {
-      condition['grown'] = query.grown
+      condition['grown'] = parseInt(query.grown)
     }
     if (query.breed) {
-      condition['breed'] = query.breed
+      condition['breed'] = parseInt(query.breed)
     }
     if (query.genus) {
-      condition['genus'] = query.genus
+      condition['genus'] = parseInt(query.genus)
     }
     if (query.name) {
       condition['name'] = new RegExp(query.name)

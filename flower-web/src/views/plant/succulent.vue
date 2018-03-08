@@ -129,6 +129,7 @@
   import {
     mapState
   } from 'vuex'
+  import _ from 'lodash'
   import axios from 'axios'
   export default {
     name: 'classifyProject',
@@ -166,10 +167,10 @@
       }
     },
     created () {
-      this.getData()
       this.initGrowns()
       this.initBreeds()
       this.initReproductives()
+      this.getData()
     },
     computed: {
       ...mapState({
@@ -187,8 +188,19 @@
         this.pagination.pageIndex = value
         this.getData()
       },
-      getData () {
+      async getData () {
         return this.$store.dispatch('searchSucculentList', this.pagination).then(res => {
+          res.data.forEach(re => {
+            re.reproductive = (_.find(this.reproductives, r => r.index === re.reproductive) || {
+              name: ''
+            }).name
+            re.breed = (_.find(this.breeds, b => b.index === re.breed) || {
+              name: ''
+            }).name
+            re.grown = (_.find(this.growns, g => g.index === re.grown) || {
+              name: ''
+            }).name
+          })
           this.tableData = res.data
           this.pagesCount = res.count
         })
@@ -260,8 +272,6 @@
         this.dialogDelFormVisible = true
         this.plantDelName = row.name
         this._id = row._id
-        console.log(this._id)
-        console.log(typeof this._id)
       },
       delPlant () {
         return this.$store.dispatch('delSucculent', this._id).then(() => {
