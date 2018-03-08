@@ -1,2 +1,14 @@
 flower test
+
+node.js vue koa mongo
+
+restful
+ 
+ 1. change config
+  1) flower-web
+     main.js (axios.defaults.baseURL = 'http://your ip:8060/api/')
+  2) flower-api
+     basic.config.js
+ 2.npm install
+
  
